@@ -1,0 +1,18 @@
+{
+  "name": "microservices-logging",
+  "version": "1.0.0",
+  "description": "- \"Observablity\" -> The ability to understand the internal state of a system by examining its output\r - winston, Pino, Morgan (expressJS), log4js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.17.0"
+  }
+}
