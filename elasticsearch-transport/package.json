@@ -1,0 +1,20 @@
+{
+  "name": "elasticsearch-transport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.16.2",
+    "express": "^4.21.2",
+    "winston": "^3.17.0",
+    "winston-elasticsearch": "^0.19.0"
+  }
+}
